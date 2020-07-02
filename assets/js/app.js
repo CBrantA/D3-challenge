@@ -28,7 +28,7 @@
 
 //access CSV
 // Load data from data.csv
-d3.csv("./assets/data/data.csv").then(function(stateData) {
+d3.csv("../data/data.csv").then(function(stateData) {
   console.log(stateData);
 
 
